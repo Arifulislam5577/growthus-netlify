@@ -10,6 +10,7 @@ import BusinessServices from "@/components/BusinessServices";
 import { CaseStudy, Caret } from "@/components/CaseStudy";
 import { caseStudyData, servicesData } from "@/data/data.js";
 import useTitle from "@/hooks/useTitle";
+export const dynamic = "force-dynamic";
 
 const Service = () => {
   useTitle("Growthus | Services");

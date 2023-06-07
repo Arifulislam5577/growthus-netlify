@@ -8,7 +8,7 @@ import ContactAddress from "@/components/Contact/ContactAddress";
 import ContactExperts from "@/components/Contact/ContactExperts";
 import CallToAction from "@/components/CallToAction";
 import useTitle from "@/hooks/useTitle";
-
+export const dynamic = "force-dynamic";
 const Contact = () => {
   useTitle("Growthus | Contact Us");
   return (

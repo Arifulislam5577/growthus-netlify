@@ -2,6 +2,7 @@ import Markdown from "react-markdown";
 import PageHero from "@/components/Common/PageHero";
 import CallToAction from "@/components/CallToAction";
 import getMarkDownData from "@/utils/GetMarkDownData";
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Growthus | Terms & Conditions",

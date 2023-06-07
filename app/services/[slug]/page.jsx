@@ -10,6 +10,7 @@ import { CaseStudy, Caret } from "@/components/CaseStudy";
 import { caseStudyData, servicesData } from "@/data/data.js";
 import { imageStyle } from "@/data/data";
 import useTitle from "@/hooks/useTitle";
+export const dynamic = "force-dynamic";
 
 const PostPage = (props) => {
   useTitle("Growthus | Services");

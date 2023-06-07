@@ -2,7 +2,7 @@ import PageHero from "@/components/Common/PageHero.jsx";
 import CallToAction from "@/components/CallToAction";
 import AllBlogs from "@/components/AllBlogs";
 import getMarkDownData from "@/utils/GetMarkDownData";
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Growthus | Blog",
 };

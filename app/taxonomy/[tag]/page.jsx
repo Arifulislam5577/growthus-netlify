@@ -2,6 +2,7 @@ import AllBlogs from "@/components/AllBlogs";
 import CallToAction from "@/components/CallToAction";
 import PageHero from "@/components/Common/PageHero";
 import getMarkDownData from "@/utils/GetMarkDownData";
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Growthus | Taxonomy",

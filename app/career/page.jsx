@@ -7,7 +7,7 @@ import CompanyAddress from "@/components/CompanyAddress";
 import CareerHero from "@/components/Career/CareerHero";
 import CallToAction from "@/components/CallToAction";
 import { FooterDatas, TeamData } from "@/data/data";
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Growthus | Career",
 };

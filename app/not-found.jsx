@@ -1,5 +1,7 @@
 import { imageStyle } from "@/data/data.js";
 import Image from "next/image";
+export const dynamic = "force-dynamic";
+
 const NotFound = () => {
   return (
     <section className="error">

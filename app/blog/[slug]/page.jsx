@@ -6,7 +6,7 @@ import CallToAction from "@/components/CallToAction";
 import { imageStyle } from "@/data/data";
 import getMarkDownContent from "@/utils/GetMarkDownContent";
 import getMarkDownData from "@/utils/GetMarkDownData";
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Growthus | Blog",
 };

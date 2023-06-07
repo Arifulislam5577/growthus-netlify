@@ -7,7 +7,7 @@ import { caseStudyData } from "@/data/data.js";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import useTitle from "@/hooks/useTitle";
-
+export const dynamic = "force-dynamic";
 export default function CaseStudyPage() {
   useTitle("Grouwthus | Case Study");
   const categories = ["All project", "Design", "Development", "Marketing"];

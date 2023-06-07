@@ -5,7 +5,6 @@ import Client from "@/components/Client";
 import BusinessSolution from "@/components/BusinessSolution/BusinessSolution";
 import Community from "@/components/Community";
 import AboutContent from "@/components/AboutContent";
-
 import Team from "@/components/Team";
 import CompanyAddress from "@/components/CompanyAddress";
 import AboutHero from "@/components/AboutHero";
@@ -17,6 +16,7 @@ import {
   AboutHeroData,
   FooterDatas,
 } from "@/data/data";
+export const dynamic = "force-dynamic";
 
 const AboutUs = () => {
   useTitle("Growthus | About Us");

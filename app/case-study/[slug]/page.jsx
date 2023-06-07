@@ -4,7 +4,7 @@ import Link from "next/link";
 import useTitle from "@/hooks/useTitle";
 import PageHero from "@/components/Common/PageHero.jsx";
 import { caseStudyData, imageStyle } from "@/data/data.js";
-
+export const dynamic = "force-dynamic";
 const CaseStudyPost = (props) => {
   useTitle("Grouwthus | Case Study");
   const slug = props.params.slug;

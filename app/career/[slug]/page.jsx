@@ -3,7 +3,7 @@ import PageHero from "@/components/Common/PageHero";
 import CareerForm from "@/components/Career/CareerForm.jsx";
 import getMarkDownContent from "@/utils/GetMarkDownContent";
 import getMarkDownData from "@/utils/GetMarkDownData";
-
+export const dynamic = "force-dynamic";
 export const metadata = {
   title: "Growthus | Career",
 };
