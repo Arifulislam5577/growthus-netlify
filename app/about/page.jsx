@@ -5,17 +5,18 @@ import Client from "@/components/Client";
 import BusinessSolution from "@/components/BusinessSolution/BusinessSolution";
 import Community from "@/components/Community";
 import AboutContent from "@/components/AboutContent";
+
+import Team from "@/components/Team";
+import CompanyAddress from "@/components/CompanyAddress";
+import AboutHero from "@/components/AboutHero";
+import useTitle from "@/hooks/useTitle";
 import {
   JoinTeam,
   TeamData,
   AboutStory,
   AboutHeroData,
   FooterDatas,
-} from "../../data/data.js";
-import Team from "@/components/Team";
-import CompanyAddress from "@/components/CompanyAddress";
-import AboutHero from "@/components/AboutHero";
-import useTitle from "@/hooks/useTitle";
+} from "@/data/data";
 
 const AboutUs = () => {
   useTitle("Growthus | About Us");

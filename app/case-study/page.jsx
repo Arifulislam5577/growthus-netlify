@@ -3,7 +3,7 @@
 import CallToAction from "@/components/CallToAction";
 import PageHero from "@/components/Common/PageHero.jsx";
 import { CaseStudy } from "@/components/CaseStudy";
-import { caseStudyData } from "../../data/data.js";
+import { caseStudyData } from "@/data/data.js";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import useTitle from "@/hooks/useTitle";

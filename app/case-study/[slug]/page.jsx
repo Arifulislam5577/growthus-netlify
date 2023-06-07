@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import useTitle from "@/hooks/useTitle";
 import PageHero from "@/components/Common/PageHero.jsx";
-import { caseStudyData, imageStyle } from "../../../data/data.js";
+import { caseStudyData, imageStyle } from "@/data/data.js";
 
 const CaseStudyPost = (props) => {
   useTitle("Grouwthus | Case Study");

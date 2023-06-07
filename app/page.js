@@ -9,7 +9,7 @@ import Testimonials from "@/components/Testimonials/Testimonial";
 import CallToAction from "@/components/CallToAction";
 
 import { useEffect } from "react";
-import { WorkProcessData } from "../data/data.js";
+import { WorkProcessData } from "@/data/data.js";
 
 export default function Home() {
   useEffect(() => {
