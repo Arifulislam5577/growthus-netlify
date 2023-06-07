@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
-const BusinessSolutionItems = ({data}) => {
-  const {icon, title, paragraph} = data;
+
+const BusinessSolutionItems = ({ data }) => {
+  const { icon, title, paragraph } = data;
   return (
     <div className="col-lg-4">
       <div className="services-item">

@@ -1,4 +1,3 @@
-import React from "react";
 import CareerHeroItem from "./CareerHeroItem";
 import { CareerHeroData } from "@/data/data.js";
 function CareerHero() {
