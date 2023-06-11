@@ -203,7 +203,7 @@ export const TestimonialData = [
     rating: 4,
     ratingImage: "/images/testimonial/star.svg",
     authorImage: "/images/testimonial/testimonial-thumb-1.png",
-    emoji: "/images/testimonial/icon-love.svg",
+    emoji: "/images/testimonial/Icon-love.svg",
   },
   {
     id: 2,
@@ -214,7 +214,7 @@ export const TestimonialData = [
     rating: 5,
     ratingImage: "/images/testimonial/star.svg",
     authorImage: "/images/testimonial/testimonial-thumb-1.png",
-    emoji: "/images/testimonial/icon-love.svg",
+    emoji: "/images/testimonial/Icon-love.svg",
   },
   {
     id: 3,
@@ -225,7 +225,7 @@ export const TestimonialData = [
     rating: 3,
     ratingImage: "/images/testimonial/star.svg",
     authorImage: "/images/testimonial/testimonial-thumb-1.png",
-    emoji: "/images/testimonial/icon-love.svg",
+    emoji: "/images/testimonial/Icon-love.svg",
   },
   {
     id: 4,
@@ -236,7 +236,7 @@ export const TestimonialData = [
     rating: 2,
     ratingImage: "/images/testimonial/star.svg",
     authorImage: "/images/testimonial/testimonial-thumb-1.png",
-    emoji: "/images/testimonial/icon-love.svg",
+    emoji: "/images/testimonial/Icon-love.svg",
   },
   {
     id: 5,
@@ -247,7 +247,7 @@ export const TestimonialData = [
     rating: 1,
     ratingImage: "/images/testimonial/star.svg",
     authorImage: "/images/testimonial/testimonial-thumb-1.png",
-    emoji: "/images/testimonial/icon-love.svg",
+    emoji: "/images/testimonial/Icon-love.svg",
   },
 ];
 
