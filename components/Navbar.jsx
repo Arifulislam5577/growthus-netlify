@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import { menuData } from "@/data/data.js";
 import Image from "next/image";
@@ -34,13 +33,9 @@ const Navbar = () => {
         id="navigationBar"
       >
         <div className="container">
-          <Link
-            className="navbar-brand"
-            href="/"
-            onClick={() => setActive(null)}
-          >
+          <a className="navbar-brand" href="/" onClick={() => setActive(null)}>
             <Image src={menuData.logo} alt="logo" width={140} height={30} />
-          </Link>
+          </a>
           <button
             type="button"
             data-bs-toggle="collapse"
@@ -100,7 +95,7 @@ const Navbar = () => {
                 >
                   {menuItem.path ? (
                     <>
-                      <Link
+                      <a
                         href={menuItem.path}
                         onClick={() => setActive(menuItem)}
                         className={`nav-link ${
@@ -108,7 +103,7 @@ const Navbar = () => {
                         }`}
                       >
                         {menuItem.title}
-                      </Link>
+                      </a>
                     </>
                   ) : (
                     <>
@@ -128,9 +123,9 @@ const Navbar = () => {
                                 className="dropdown-menu-item"
                                 key={submenuItem.id}
                               >
-                                <Link href={submenuItem.path}>
+                                <a href={submenuItem.path}>
                                   {submenuItem.title}
-                                </Link>
+                                </a>
                               </li>
                             ))}
                           </ul>
@@ -143,13 +138,13 @@ const Navbar = () => {
             </ul>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item ms-lg-6 ms-sm-0">
-                <Link
+                <a
                   className="btn btn-navigation w-100"
                   href={menuData.link}
                   replace
                 >
                   Let&apos;s Talk
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
