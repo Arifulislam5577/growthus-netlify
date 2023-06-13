@@ -574,7 +574,6 @@ export const ContactFormData = {
 export const imageStyle = {
   maxWidth: "100%",
   height: "auto",
-  width: "auto",
 };
 
 // ServiceData
