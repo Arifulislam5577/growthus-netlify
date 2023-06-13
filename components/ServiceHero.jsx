@@ -13,9 +13,9 @@ const ServiceHero = () => {
                 <div className="work-item-shape bg-primary-light">
                   <Image
                     src="/images/work/work-shap.svg"
-                    alt="About Story images"
-                    width={500}
-                    height={500}
+                    alt="hero images"
+                    width={530}
+                    height={575}
                     style={imageStyle}
                   />
                 </div>

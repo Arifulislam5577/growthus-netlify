@@ -28,8 +28,8 @@ const PostPage = (props) => {
                     <Image
                       src="/images/work/work-shap.svg"
                       alt="hero images"
-                      width={500}
-                      height={500}
+                      width={530}
+                      height={575}
                       style={imageStyle}
                     />
                   </div>
