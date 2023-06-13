@@ -48,8 +48,7 @@ function AboutHero({ data }) {
               <motion.img
                 src={index.image}
                 alt="about-images"
-                width={325}
-                height={370}
+                fill
                 variants={item}
                 style={imageStyle}
               />
