@@ -26,8 +26,7 @@ function Team({ data }) {
                     src={index.image}
                     alt="team-member-thumb"
                     className="team-member-thumb"
-                    width={400}
-                    height={400}
+                    fill
                     style={imageStyle}
                   />
                   <div className="team-member-details">
