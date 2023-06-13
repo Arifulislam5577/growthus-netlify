@@ -1,9 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
-import Image from "next/image";
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { CaretRight } from "@phosphor-icons/react";
-import { imageStyle } from "@/data/data";
 
 export const Caret = () => {
   return (
@@ -34,12 +34,10 @@ export const CaseStudy = ({ props }) => {
       <motion.div className="project-item-wrapper">
         <motion.a href={`/case-study/${props.slug}`} className="project-item">
           <motion.div className="project-item-thumb">
-            <Image
+            <img
               src={props.thumbnail}
               alt="project-thumbnail"
-              width={300}
-              height={300}
-              style={{ ...imageStyle, width: "auto" }}
+              className="w-100"
             />
             <motion.span>{props.tag}</motion.span>
           </motion.div>

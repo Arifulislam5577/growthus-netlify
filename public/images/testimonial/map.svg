@@ -75,11 +75,11 @@
 <ellipse cx="378.5" cy="270.771" rx="6.09735" ry="6.0937" fill="#32C5EE"/>
 <ellipse cx="466.146" cy="586.141" rx="9.14602" ry="9.14055" fill="#B1D8FF"/>
 <ellipse cx="466.146" cy="586.141" rx="6.09735" ry="6.0937" fill="#32C5EE"/>
-<path d="M466.5 583.5C515 500.5 644.5 410.164 710.808 397.215" stroke="url(#paint0_linear)" stroke-width="1.5"/>
-<path d="M384.598 270.771C475.296 257.822 673.459 296.669 710.806 397.216" stroke="url(#paint1_linear)" stroke-width="1.5"/>
-<path d="M755.774 175.556C731.384 208.31 689.467 321.044 710.808 397.976" stroke="url(#paint2_linear)" stroke-width="1.5"/>
-<path d="M711.566 396.452C733.669 358.367 905.157 272.294 996.617 353.796" stroke="url(#paint3_linear)" stroke-width="1.5"/>
-<path d="M964.607 673.716C969.18 588.405 883.817 420.066 710.805 397.215" stroke="url(#paint4_linear)" stroke-width="1.5"/>
+<path d="M466.5 583.5C515 500.5 644.5 410.164 710.808 397.215" stroke="url(#paint0_linear)" strokeWidth="1.5"/>
+<path d="M384.598 270.771C475.296 257.822 673.459 296.669 710.806 397.216" stroke="url(#paint1_linear)" strokeWidth="1.5"/>
+<path d="M755.774 175.556C731.384 208.31 689.467 321.044 710.808 397.976" stroke="url(#paint2_linear)" strokeWidth="1.5"/>
+<path d="M711.566 396.452C733.669 358.367 905.157 272.294 996.617 353.796" stroke="url(#paint3_linear)" strokeWidth="1.5"/>
+<path d="M964.607 673.716C969.18 588.405 883.817 420.066 710.805 397.215" stroke="url(#paint4_linear)" strokeWidth="1.5"/>
 <g filter="url(#filter10_d)">
 <rect x="658.979" y="336.278" width="91.4602" height="91.4055" rx="12" fill="#05AA77"/>
 </g>

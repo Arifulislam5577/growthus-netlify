@@ -143,11 +143,7 @@ const Navbar = () => {
             </ul>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item ms-lg-6 ms-sm-0">
-                <a
-                  className="btn btn-navigation w-100"
-                  href={menuData.link}
-                  replace
-                >
+                <a className="btn btn-navigation w-100" href={menuData.link}>
                   Let&apos;s Talk
                 </a>
               </li>

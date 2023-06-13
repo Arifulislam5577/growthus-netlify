@@ -54,7 +54,7 @@ const ContactForm = () => {
                   aria-label="Default select example"
                   id="budget"
                 >
-                  <option selected>Budget</option>
+                  <option defaultValue="1">Budget</option>
                   <option value="1">One</option>
                   <option value="2">Two</option>
                   <option value="3">Three</option>
@@ -80,7 +80,7 @@ const ContactForm = () => {
                   id="floatingTextarea2"
                   placeholder="Description"
                   rows="10"
-                  spellcheck="false"
+                  spellCheck="false"
                 ></textarea>
               </div>
               <div className="col-12">
