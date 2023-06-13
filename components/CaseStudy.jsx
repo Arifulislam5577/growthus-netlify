@@ -39,7 +39,7 @@ export const CaseStudy = ({ props }) => {
               alt="project-thumbnail"
               width={300}
               height={300}
-              style={imageStyle}
+              style={{ ...imageStyle, width: "auto" }}
             />
             <motion.span>{props.tag}</motion.span>
           </motion.div>
