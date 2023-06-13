@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { menuData } from "@/data/data.js";
 import Image from "next/image";
 import * as Icon from "@phosphor-icons/react";
+import Link from "next/link";
 const Navbar = () => {
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
@@ -33,9 +34,13 @@ const Navbar = () => {
         id="navigationBar"
       >
         <div className="container">
-          <a className="navbar-brand" href="/" onClick={() => setActive(null)}>
+          <Link
+            className="navbar-brand"
+            href="/"
+            onClick={() => setActive(null)}
+          >
             <Image src={menuData.logo} alt="logo" width={140} height={30} />
-          </a>
+          </Link>
           <button
             type="button"
             data-bs-toggle="collapse"
@@ -95,7 +100,7 @@ const Navbar = () => {
                 >
                   {menuItem.path ? (
                     <>
-                      <a
+                      <Link
                         href={menuItem.path}
                         onClick={() => setActive(menuItem)}
                         className={`nav-link ${
@@ -103,7 +108,7 @@ const Navbar = () => {
                         }`}
                       >
                         {menuItem.title}
-                      </a>
+                      </Link>
                     </>
                   ) : (
                     <>
@@ -123,9 +128,9 @@ const Navbar = () => {
                                 className="dropdown-menu-item"
                                 key={submenuItem.id}
                               >
-                                <a href={submenuItem.path}>
+                                <Link href={submenuItem.path}>
                                   {submenuItem.title}
-                                </a>
+                                </Link>
                               </li>
                             ))}
                           </ul>
